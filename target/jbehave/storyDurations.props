@@ -1,0 +1,6 @@
+#org.jbehave.core.embedder.StoryManager
+#Wed May 04 12:29:36 MSK 2016
+threads=2
+total=43000
+threadAverage=21500
+ru/yandex/market/stories/my.story=43000

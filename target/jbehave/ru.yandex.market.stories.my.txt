@@ -1,0 +1,26 @@
+
+(ru/yandex/market/stories/my.story)
+Narrative:
+As a developer
+I want to to test the market to "TV"
+So that I can use selenium IDE
+Scenario: check market.yande.ru TV section
+Given browser open the page on yandex.ru
+When the transition to the section market
+And choose section Electronics
+And choose section TV
+And go to advanced search
+And sets the specified search criteria
+Then page elements should be 10
+And to keep the name of the first element in the list
+When copy a saved name in the search box (FAILED)
+(org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'Brothers', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_66'
+Driver info: driver.version: RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 3bbeb637-44ae-45e7-b7d4-1a8b980addc1)
+Then found element should have a similar name (NOT PERFORMED)
+And finished test (NOT PERFORMED)
+
+
